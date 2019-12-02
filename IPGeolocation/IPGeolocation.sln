@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpGeolocation", "IpGeolocation.csproj", "{25C49426-2AB5-43B9-880D-2BE79EF54E37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpGeolocation.Tests", "..\IPGeolocation.Tests\IpGeolocation.Tests.csproj", "{AE7264A9-C966-4028-8F12-60733A1D6FD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpGeolocation.Database", "..\IPGeolocation.Database\IpGeolocation.Database.csproj", "{A0EB1C77-BAD9-4DB6-B10D-23B29041D592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpGeolocation.Services", "..\IPGeolocation.Services\IpGeolocation.Services.csproj", "{BE6F60F3-3B23-4384-8686-860E72328CE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25C49426-2AB5-43B9-880D-2BE79EF54E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C49426-2AB5-43B9-880D-2BE79EF54E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C49426-2AB5-43B9-880D-2BE79EF54E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C49426-2AB5-43B9-880D-2BE79EF54E37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7264A9-C966-4028-8F12-60733A1D6FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7264A9-C966-4028-8F12-60733A1D6FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7264A9-C966-4028-8F12-60733A1D6FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7264A9-C966-4028-8F12-60733A1D6FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0EB1C77-BAD9-4DB6-B10D-23B29041D592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0EB1C77-BAD9-4DB6-B10D-23B29041D592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0EB1C77-BAD9-4DB6-B10D-23B29041D592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0EB1C77-BAD9-4DB6-B10D-23B29041D592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE6F60F3-3B23-4384-8686-860E72328CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6F60F3-3B23-4384-8686-860E72328CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6F60F3-3B23-4384-8686-860E72328CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6F60F3-3B23-4384-8686-860E72328CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B692658F-9305-4EBE-842F-A6C5176B759F}
+	EndGlobalSection
+EndGlobal
